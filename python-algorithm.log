@@ -1,0 +1,249 @@
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 15:40:05] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:05] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:11] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:11] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:19] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:19] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:24] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:24] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:29] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:29] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:34] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:34] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:40:41] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:18] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:18] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:19] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:19] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:20] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:21] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:22] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:41:28] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 15:41:33] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:52:44] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:54:51] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:54:56] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:02] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:02] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:05] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:05] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:06] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:06] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:07] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:07] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:09] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:09] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:11] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:44] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:48] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:53] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:54] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:55] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:55] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:56] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:56] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:59] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:55:59] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:56:00] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:56:00] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:56:02] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:56:55] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:57:02] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:57:02] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 15:57:23] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:57:23] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:57:33] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 15:57:51] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:58:03] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:58:16] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:58:24] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:58:29] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 15:58:31] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:10:47] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:10:49] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:10:49] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 16:11:21] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:21] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:25] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:33] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:39] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:48] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:11:49] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:00] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:02] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:09] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:10] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:20] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:22] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:29] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:31] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:38] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:12:39] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:13:27] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:13:28] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:13:41] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:13:42] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:13:56] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:13:58] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:14:06] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:14:18] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 16:14:21] "POST /api/asr HTTP/1.1" 422 -
+127.0.0.1 - - [06/Jun/2026 16:14:58] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:15:14] "POST /api/asr HTTP/1.1" 422 -
+127.0.0.1 - - [06/Jun/2026 16:17:44] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:17:46] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:17:53] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:17:54] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:17:58] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:18:00] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:18:11] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:18:13] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:18:19] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:18:41] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:18:41] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 16:19:02] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:19:02] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:19:08] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 16:19:13] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:21:33] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:21:33] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 16:21:48] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:21:48] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:21:56] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 16:22:11] "POST /api/asr HTTP/1.1" 422 -
+127.0.0.1 - - [06/Jun/2026 16:24:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:24:25] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 16:24:45] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:24:45] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:24:54] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 16:25:05] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:15] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:20] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:27] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:29] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:36] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:38] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:47] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:49] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:57] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:25:59] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:26:17] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:30:29] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:30:29] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 16:30:46] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:30:46] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:30:53] "GET /api/health HTTP/1.1" 200 -
+Loading Whisper ASR model (base)...
+Whisper ASR model loaded.
+127.0.0.1 - - [06/Jun/2026 16:30:57] "POST /api/asr HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:31:02] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:31:05] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:31:06] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:33:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:33:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:23] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:23] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
+Loading YOLO fall detection model from: D:\mycode\JAVA_code\spring_medical_system\runs\detect\fall_detection_model\weights\best.pt
+Fall detection algorithm service starting on 0.0.0.0:5000
+ * Serving Flask app 'app_fall_detection'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.33:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/Jun/2026 16:34:43] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:43] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:48] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:48] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:52] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:52] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:57] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:34:57] "POST /api/detect HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:35:05] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:35:17] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2026 16:35:17] "POST /api/shutdown HTTP/1.1" 200 -
+Python algorithm service shutting down...
